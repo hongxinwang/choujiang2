@@ -1,0 +1,203 @@
+.wrapper {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+}
+
+.machine {
+    height: 100%;
+    text-align: center;
+}
+
+.machine-background {
+    height: 81vmin;
+}
+
+.machine-background-fixed {
+    width: 121.8vmin;
+    height: 81vmin;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 calc(100vw / 2 - 121.8vmin / 2);
+}
+
+.title {
+    display: table;
+    position: absolute;
+    top: 6.06%;
+    width: 76%;
+    left: 8%;
+    font-size: 6vmin;
+    margin-left: -1%;
+    color: #fff;
+}
+
+.title span {
+    display: table-cell;
+}
+
+.number {
+    position: absolute;
+    top: 25%;
+    height: 40%;
+    left: 10%;
+    width: 72%;
+}
+
+.number div {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-image: url(/img/number.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 99.6% 102%;
+    margin-left: -7%;
+}
+
+.number .n1 {
+    background-position: 0.6% 1%;
+}
+
+.number .n2 {
+    background-position: 11.6% 1%;
+}
+
+.number .n3 {
+    background-position: 22.6% 1%;
+}
+
+.number .n4 {
+    background-position: 33.6% 1%;
+}
+
+.number .n5 {
+    background-position: 44.6% 1%;
+}
+
+.number .n6 {
+    background-position: 55.6% 1%;
+}
+
+.number .n7 {
+    background-position: 66.6% 1%;
+}
+
+.number .n8 {
+    background-position: 77.6% 1%;
+}
+
+.number .n9 {
+    background-position: 88.6% 1%;
+}
+
+.number .n0 {
+    background-position: 99.6% 1%;
+}
+
+
+.button {
+    width: 84%;
+    height: 22%;
+    position: absolute;
+    left: 3%;
+    top: 69%;
+    background-image: url(/img/btn2.png);
+    background-size: cover;
+}
+
+.disabled {
+    background-image: url(../img/btn2.png);
+}
+
+
+.enabled {
+    background-image: url(../img/btn.png);
+}
+
+
+.logo-left{
+    background-image: url(/img/logo-left.png);
+    position: absolute;
+    top: 0;
+    left: -31vmin;
+    width: 24vmin;
+    height: 16vmin;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.logo-right{
+    background-image: url(/img/logo-right.png);
+    position: absolute;
+    top: -3vmin;
+    right: -29vmin;
+    width: 26vmin;
+    height: 25vmin;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mask{
+    position: absolute;
+    width: 28vmin;
+    height: 24vmin;
+    opacity: 0.4;
+    background-color: rebeccapurple;
+    border-radius: 21px;
+}
+.luck1{
+    left: 4.3%;
+    top: 6.3%;
+}
+.luck2{
+    left: 27.3%;
+    top: 6.3%;
+}
+.luck3{
+    left: 50.3%;
+    top: 6.3%;
+}
+.luck4{
+    left: 73.3%;
+    top: 6.3%;
+}
+.luck5{
+    left: 73.3%;
+    top: 35.3%;
+}
+.luck6{
+    left: 73.3%;
+    top: 64.3%;
+}
+.luck7{
+    left: 50.3%;
+    top: 64.3%;
+}
+.luck8{
+    left: 27.3%;
+    top: 64.3%;
+}
+.luck9{
+    left: 4.3%;
+    top: 64.3%;
+}
+.luck10{
+    left: 4.3%;
+    top: 35.3%;
+}
+.run{
+    position: absolute;
+    width: 54vmin;
+    height: 19vmin;
+    left: 28%;
+    top: 37%;
+    opacity: 0.4;
+    background-color: rebeccapurple;
+}

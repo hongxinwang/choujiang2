@@ -1,0 +1,9 @@
+body,html{width: 100%; height:100%;}
+body,html{overflow: hidden;}
+html{font-size: 2vw;}
+*{margin: 0;padding: 0;}
+.container{background-position: center;background-color: #fb9c47;background-image: url(../img/bk.png);background-size: cover;background-repeat: no-repeat;}
+.f-hide{display: none;}
+.delay200ms{-webkit-animation-delay: 200ms;animation-delay: 200ms;}
+.delay400ms{-webkit-animation-delay: 400ms;animation-delay: 400ms;}
+.delay600ms{-webkit-animation-delay: 600ms;animation-delay: 600ms;}
