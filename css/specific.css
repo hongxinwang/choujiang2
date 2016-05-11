@@ -149,48 +149,48 @@
     width: 27.6vmin;
     height: 23.4vmin;
     opacity: 0.6;
-    border-radius: 20px;
+    border-radius: 2.1vmin;
     background-image: url(../img/mask.png);    
     background-size: cover;
 }
 .luck1{
-    left: 4.4%;
+    left: 4.2%;
     top: 6.4%;
 }
 .luck2{
-    left: 27.3%;
+    left: 27.1%;
     top: 6.4%;
 }
 .luck3{
-    left: 50.3%;
+    left: 50.1%;
     top: 6.4%;
 }
 .luck4{
-    left: 73.2%;
+    left: 73.1%;
     top: 6.4%;
 }
 .luck5{
-    left: 73.2%;
+    left: 73.1%;
     top: 35.6%;
 }
 .luck6{
-    left: 73.2%;
+    left: 73.1%;
     top: 65%;
 }
 .luck7{
-    left: 50.3%;
+    left: 50.0%;
     top: 65%;
 }
 .luck8{
-    left: 27.3%;
+        left: 27.2%;
     top: 65%;
 }
 .luck9{
-    left: 4.4%;
-    top: 65%;
+    left: 4.2%;
+    top: 64.9%;
 }
 .luck10{
-    left: 4.4%;
+    left: 4.2%;
     top: 35.6%;
 }
 .run{
@@ -202,4 +202,5 @@
     font-size: 9vmin;
     vertical-align: middle;
     line-height: 18vmin;
+    color:#FF0000;
 }
