@@ -122,19 +122,19 @@
 
 
 .logo-left{
-    background-image: url(/img/logo-left.png);
+    background-image: url(../img/logo-left.png);
     position: absolute;
     top: 0;
     left: -31vmin;
     width: 24vmin;
-    height: 16vmin;
+    height: 12vmin;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 
 .logo-right{
-    background-image: url(/img/logo-right.png);
+    background-image: url(../img/logo-right.png);
     position: absolute;
     top: -3vmin;
     right: -29vmin;
@@ -146,51 +146,52 @@
 
 .mask{
     position: absolute;
-    width: 28vmin;
-    height: 24vmin;
-    opacity: 0.4;
-    background-color: rebeccapurple;
-    border-radius: 21px;
+    width: 27.6vmin;
+    height: 23.4vmin;
+    opacity: 0.6;
+    border-radius: 20px;
+    background-image: url(../img/mask.png);    
+    background-size: cover;
 }
 .luck1{
-    left: 4.3%;
-    top: 6.3%;
+    left: 4.4%;
+    top: 6.4%;
 }
 .luck2{
     left: 27.3%;
-    top: 6.3%;
+    top: 6.4%;
 }
 .luck3{
     left: 50.3%;
-    top: 6.3%;
+    top: 6.4%;
 }
 .luck4{
-    left: 73.3%;
-    top: 6.3%;
+    left: 73.2%;
+    top: 6.4%;
 }
 .luck5{
-    left: 73.3%;
-    top: 35.3%;
+    left: 73.2%;
+    top: 35.6%;
 }
 .luck6{
-    left: 73.3%;
-    top: 64.3%;
+    left: 73.2%;
+    top: 65%;
 }
 .luck7{
     left: 50.3%;
-    top: 64.3%;
+    top: 65%;
 }
 .luck8{
     left: 27.3%;
-    top: 64.3%;
+    top: 65%;
 }
 .luck9{
-    left: 4.3%;
-    top: 64.3%;
+    left: 4.4%;
+    top: 65%;
 }
 .luck10{
-    left: 4.3%;
-    top: 35.3%;
+    left: 4.4%;
+    top: 35.6%;
 }
 .run{
     position: absolute;
@@ -198,6 +199,7 @@
     height: 19vmin;
     left: 28%;
     top: 37%;
-    opacity: 0.4;
-    background-color: rebeccapurple;
+    font-size: 9vmin;
+    vertical-align: middle;
+    line-height: 18vmin;
 }
